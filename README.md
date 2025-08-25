@@ -18,10 +18,12 @@ Chatbot(Voice + Text)
   LIVEKIT_URL=wss://chatbot-ur0wqhe0.livekit.cloud
   ```
 - Download model files
-  ``` To use the turn-detector, silero, or noise-cancellation plugins, you first need to download the model files:
-      uv run filename.py download-files
+  ```
+  To use the turn-detector, silero, or noise-cancellation plugins, you first need to download the model files:
+  uv run filename.py download-files
   ```
 - Speak to your agent:
   ``` uv run filename.py console```
+
 
 
