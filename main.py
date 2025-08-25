@@ -12,9 +12,9 @@ from livekit.plugins import (
 from livekit.plugins.turn_detector.multilingual import MultilingualModel
 
 load_dotenv(".env.local")
-DEEPGRAM_API_KEY="dd344d2e280993acfa548378e05b6518a0059bc7"
-GOOGLE_API_KEY="AIzaSyDd_A5fKDUkQ02Xz2HGhouWnc-v6bBksNI"
-CARTESIA_API_KEY="sk_car_u2nMptvCWgNn4sc71V4m9E"
+DEEPGRAM_API_KEY="Your_api_key"
+GOOGLE_API_KEY="Your_api_key"
+CARTESIA_API_KEY="Your_api_key"
 
 class Assistant(Agent):
     def __init__(self) -> None:
